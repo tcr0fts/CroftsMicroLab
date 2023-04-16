@@ -13,21 +13,37 @@
   </head>
   <body>
 
-    <header>
-      <div>
+    <input id="toggle" type="checkbox"></input>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Research</a>
-            <a href="publications.html">Publications</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<label for="toggle" class="hamburger">
+  <div class="top-bun"></div>
+  <div class="meat"></div>
+  <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+  <div class="nav-wrapper" id="navigation-width">
+    <nav class="flex-col">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+      <div class="nav-flex-row">
+        <a href="https://twitter.com/terencecrofts?lang=en" target="_blank">
+        <img alt="Twitter" src="Resources/images/twitter.png" width=50 height=50>
+      </a>
+      <a href="https://scholar.google.com/citations?user=3iE1s_wAAAAJ&hl=en" target="_blank">
+        <img alt="Google Scholar" src="https://banner2.cleanpng.com/20180503/slq/kisspng-google-scholar-education-research-doctor-of-philos-scholar-s-5aeaddc3af2de5.4479525015253416357175.jpg" width=50 height=50>
+      </a>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Crofts+TS+%5Bauthor%5D" target="_blank">
+        <img alt="NCBI Biography" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/US-NLM-NCBI-Logo.svg/829px-US-NLM-NCBI-Logo.svg.png" width=50 height=50>
+      </a>
+    </div> 
+    </nav>
   </div>
-      </div>
-    </header>
+</div>
+
+
 
     <section class="jumbotron">
       <div class="container">
@@ -56,48 +72,6 @@
         </div>
       </div>
     </section>
-
-<!--
-    <section class="container">
-      <div class="row justify-content-center">
-        <div class="col-sm-6">
-          <img src="Resources/images/TSC_GDLab_photo.jpg"/>
-          <p>Terence S. Crofts</p>
-          <p>Research Assistant Professor</p>
-          <p>Northwestern University</p>
-          <p> Chemistry of Life Processes Institute
-Office</p>
-<p>3737, Northwestern University</p>
-<p>Evanston, IL 60208</p>
-
-<p>tcrofts@northwestern.edu</p>
-
-<p>217-390-9071.</p>
-        </div>
-      </div>
-    </section>
-  -->
-
-
-    <footer>
-      <div id="banner">
-        <div class="inline-block">
-          <a href="https://twitter.com/terencecrofts?lang=en" target="_blank">
-            <img alt="Twitter" src="Resources/images/twitter.png" width=50 height=50>
-          </a>
-        </div>
-        <div class="inline-block">
-          <a href="https://scholar.google.com/citations?user=3iE1s_wAAAAJ&hl=en" target="_blank">
-            <img alt="Google Scholar" src="https://banner2.cleanpng.com/20180503/slq/kisspng-google-scholar-education-research-doctor-of-philos-scholar-s-5aeaddc3af2de5.4479525015253416357175.jpg" width=50 height=50>
-          </a>
-        </div>
-        <div class="inline-block">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Crofts+TS+%5Bauthor%5D" target="_blank">
-            <img alt="NCBI Biography" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/US-NLM-NCBI-Logo.svg/829px-US-NLM-NCBI-Logo.svg.png" width=50 height=50>
-          </a>
-        </div>
-      </div>
-    </footer>
 
   </body>
 </html>
