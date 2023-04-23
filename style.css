@@ -55,7 +55,7 @@ header {
   opacity: 1;
   z-index: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -68,9 +68,21 @@ header {
  
 /* Slides Background Color */
 .slide-1 {
-  background-image: url('Resources/images/160510_fluorescamine_plate.jpg');
+  background-image: url('Resources/images/BusyEcoli.jpg');
   background-size: cover;
-  left: 0;
+  justify-content: center;
+}
+
+.explore-button {
+  background-color: #EE4B2B;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 20px;
+  border-style: unset;
+}
+
+#explore-more-button-link {
+  color: white;
 }
 
 .slide-2 {
@@ -111,7 +123,7 @@ header {
 
 .slider {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .slider-content {
@@ -434,13 +446,12 @@ p {
 
 /* Bottom right text */
 .text-block {
-  position: absolute;
-  bottom: 100px;
-  left: 100px;
-  background-color: black;
+  background-color: #FAE29C;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Slideshow container */
@@ -666,7 +677,7 @@ footer ul {
   width: 3em;
   height: 7px;
   border-radius: 3px;
-  background-color: #f8982b;
+  background-color: #add8e6;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
 }
@@ -678,12 +689,12 @@ Nav Styles
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #EE4b2b;
   top: -100%; left: 0; right: 0; bottom: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
-  z-index: 10001;
+  z-index: 2;
 }
 .nav-wrapper {
   position: relative;
@@ -742,4 +753,5 @@ Animations
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
+  width: 25%;
 }
