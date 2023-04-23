@@ -54,7 +54,7 @@ header {
  
 /* Slides Background Color */
 .slide-1 {
-  background-image: url('Resources/images/BusyEcoli.jpg');
+  background-image: url('Resources/images/BusyEcoliHorizontal.jpg');
   background-size: cover;
   justify-content: center;
 }
@@ -471,6 +471,12 @@ Animations
 
   .flex-col-description {
     margin-left: 0px;
+  }
+
+  .slide-1 {
+    background-image: url('Resources/images/BusyEcoli.jpg');
+    background-size: cover;
+    justify-content: center;
   }
 }
 
