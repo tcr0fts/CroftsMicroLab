@@ -708,9 +708,9 @@ Animations
     width: 100%;
   }
 
-  .flex-row-people {
+  .flex-row-people, .flex-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .flex-col-description {
