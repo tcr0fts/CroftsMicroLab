@@ -55,8 +55,11 @@ header {
 /* Slides Background Color */
 .slide-1 {
   background-image: url('Resources/images/BusyEcoliHorizontal.jpg');
-  background-size: cover;
   justify-content: center;
+  background-size: auto 100%;
+background-repeat: no-repeat;
+background-color: #FDE5A9;
+background-position: center;
 }
 
 .explore-button {
