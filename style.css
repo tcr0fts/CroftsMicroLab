@@ -461,6 +461,29 @@ Animations
 .flex-col-description a {
   padding: unset;
 }
+
+/* News  */
+.news-post {
+  border-bottom: solid #add8e6;
+  width: 80%;
+  margin-left: 10%
+
+}
+
+.date-news-post {
+  color: #add8e6;
+}
+
+.news-post p{
+  text-align: left;
+}
+
+.news-archive-link {
+  color: #add8e6;
+  display: flex;
+  justify-content: center;
+}
+
 /* media query for smaller screens */
 @media screen and (max-width: 768px) {
   .nav {
