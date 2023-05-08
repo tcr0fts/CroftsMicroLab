@@ -140,7 +140,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("Resources/images/bacteria.jpeg");
+  background-image: url("Resources/images/crofts-sew.jpg");
   background-size: cover;
   color: #ffffff;
   height: 200px;
@@ -470,8 +470,13 @@ Animations
 
 }
 
+.news-post-details{
+  margin: 12px 0px;
+}
+
 .date-news-post {
   color: #add8e6;
+  margin: 12px 0px;
 }
 
 .news-post p{
