@@ -208,6 +208,19 @@ p {
   border-radius: 8px;
 }
 
+/* Gallery */
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
